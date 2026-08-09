@@ -8,6 +8,7 @@ class Firelink < Formula
   license "MIT"
 
   depends_on "aria2"
+  depends_on "deno"
   depends_on "ffmpeg"
   depends_on "python@3.13"
 
