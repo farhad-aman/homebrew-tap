@@ -3,8 +3,8 @@ class Firelink < Formula
 
   desc "Terminal download manager over aria2c"
   homepage "https://github.com/farhad-aman/firelink"
-  url "https://github.com/farhad-aman/firelink/archive/refs/tags/v0.2.1.tar.gz"
-  sha256 "b8418f645e3dabc508692222e5adda4f301c90e06634d0c0499c9bd5b889917c"
+  url "https://github.com/farhad-aman/firelink/archive/refs/tags/v0.3.0.tar.gz"
+  sha256 "b2ba28452a855aa38c405f2f6656dac8d5dd7c76c8ca20f826640758f8a65aa6"
   license "MIT"
 
   depends_on "aria2"
