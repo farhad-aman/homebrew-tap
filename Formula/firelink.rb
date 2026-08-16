@@ -3,8 +3,8 @@ class Firelink < Formula
 
   desc "Terminal download manager over aria2c"
   homepage "https://github.com/farhad-aman/firelink"
-  url "https://github.com/farhad-aman/firelink/archive/refs/tags/v0.3.0.tar.gz"
-  sha256 "b2ba28452a855aa38c405f2f6656dac8d5dd7c76c8ca20f826640758f8a65aa6"
+  url "https://github.com/farhad-aman/firelink/archive/refs/tags/v0.4.0.tar.gz"
+  sha256 "aa7127e35bcbd5a81dcf83f23a6c2055e6a4884481fac205e62e5a44d8c43e02"
   license "MIT"
 
   depends_on "aria2"
@@ -23,8 +23,8 @@ class Firelink < Formula
   end
 
   resource "charset-normalizer" do
-    url "https://files.pythonhosted.org/packages/bd/2a/23f34ec9d04624958e137efdc394888716353190e75f25dd22c7a2c7a8aa/charset_normalizer-3.4.9.tar.gz"
-    sha256 "673611bbd43f0810bec0b0f028ddeaaa501190339cac411f347ac76917c3ae7b"
+    url "https://files.pythonhosted.org/packages/e5/3f/143b048436775b0f76ac3eec145c019e8173ccc2885c8f20319b996d5e83/charset_normalizer-3.5.1.tar.gz"
+    sha256 "6117b84ea48435e5356dc737f5121485c30920ba43375fa7b434fd753df0eac3"
   end
 
   resource "idna" do
@@ -58,8 +58,8 @@ class Firelink < Formula
   end
 
   resource "platformdirs" do
-    url "https://files.pythonhosted.org/packages/36/0a/062135c9a98dac804265073cc3afdbec5ae1aa37980bb354f461bafe81b4/platformdirs-4.11.1.tar.gz"
-    sha256 "bb1af68078f25e2f3e111e2d43b8d536df41b73c8a684b40bb018223b66fae27"
+    url "https://files.pythonhosted.org/packages/b8/d7/e7bfbc86e9f99ff7807e24de7703f032e9c9ba80bb355cf26e0e9bc5a75e/platformdirs-4.11.3.tar.gz"
+    sha256 "66a73d38a849810252df809a3d8bcbda8e26f6c189920e7535ad608a48dbb5ab"
   end
 
   resource "pycryptodomex" do
