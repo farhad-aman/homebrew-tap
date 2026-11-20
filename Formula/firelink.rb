@@ -119,6 +119,7 @@ class Firelink < Formula
 
   def install
     virtualenv_install_with_resources
+    generate_completions_from_executable(bin/"firelink", "completion")
   end
 
   test do
